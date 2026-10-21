@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "id": "biro-portraits-001",
+      "title": "Bloom (biro portraits)",
+      "category": "biro portraits",
+      "date": "2026-05",
+      "description": "A six-figure ink study of a wildflower \u2014 every petal built from thousands of fine pen strokes on cotton paper.",
+      "filename": "biro-portraits-001.jpg",
+      "image": "art/biro portraits/biro-portraits-001.jpg"
+    },
+    {
+      "id": "acrylic-002",
+      "title": "Sea-Serpent",
+      "category": "acrylic",
+      "date": "2026-06",
+      "description": "Layered washes of teal and copper that suggest a creature moving under water.",
+      "filename": "acrylic-002.jpg",
+      "image": "art/acrylic/acrylic-002.jpg"
+    },
+    {
+      "id": "postcards-003",
+      "title": "Bright Side",
+      "category": "postcards",
+      "date": "2026-04",
+      "description": "Four small colour studies on postcard paper \u2014 all about sun hitting a wall.",
+      "filename": "postcards-003.jpg",
+      "image": "art/postcards/postcards-003.jpg"
+    },
+    {
+      "id": "life-004",
+      "title": "Gesture",
+      "category": "life drawing",
+      "date": "2026-07",
+      "description": "A series of timed charcoal and ink studies capturing posture and breath.",
+      "filename": "life-004.jpg",
+      "image": "art/life drawing/life-004.jpg"
+    },
+    {
+      "id": "collage-005",
+      "title": "Found",
+      "category": "collage",
+      "date": "2026-05",
+      "description": "Assembled from torn maps and ticket stubs \u2014 memory you can hold.",
+      "filename": "collage-005.jpg",
+      "image": "art/collage/collage-005.jpg"
+    },
+    {
+      "id": "sculpture-006",
+      "title": "Form",
+      "category": "sculpture",
+      "date": "2026-08",
+      "description": "A small suspended bronze relief \u2014 line, weight and space in three dimensions.",
+      "filename": "sculpture-006.jpg",
+      "image": "art/sculpture/sculpture-006.jpg"
+    }
+  ]
+}

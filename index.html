@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HLFHART — original art portfolio</title>
+  <meta name="description" content="A showcase of HLFHART's art — biro, acrylic, postcards, life drawing, collage and sculpture." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%238b5cf6'/><text x='16' y='23' font-size='18' font-family='sans-serif' font-weight='bold' text-anchor='middle' fill='%23fff'>H</text></svg>" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site">
+    <div class="wrap site-head">
+      <a class="brand" href="index.html">
+        <span class="mark">✦</span>
+        <div>
+          <div class="name">HLFHART</div>
+          <div class="tag">originally yours</div>
+        </div>
+      </a>
+      <nav class="site">
+        <a href="index.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="admin.html">Upload</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="intro">
+      <p class="kicker">Original art, as fresh as it gets</p>
+      <h1>HLFHART<br />Portfolio</h1>
+      <p>Handmade, heart-led art across <strong>biro, acrylic, postcards, life drawing, collage</strong> and <strong>sculpture</strong>. Scroll, filter, and click to see the story behind each piece.</p>
+    </section>
+
+    <!-- filters -->
+    <div class="filter-bar" id="filterBar" role="tablist" aria-label="Filter by medium">
+      <span class="label">Show:</span>
+      <button class="btn active" data-filter="all">All pieces</button>
+      <button class="btn" data-filter="biro portraits">Biro portraits</button>
+      <button class="btn" data-filter="acrylic">Acrylic</button>
+      <button class="btn" data-filter="postcards">Postcards</button>
+      <button class="btn" data-filter="life drawing">Life drawing</button>
+      <button class="btn" data-filter="collage">Collage</button>
+      <button class="btn" data-filter="sculpture">Sculpture</button>
+    </div>
+
+    <!-- masonry grid -->
+    <div class="grid" id="grid" role="list">
+      <!-- items injected by JS -->
+    </div>
+
+    <div class="gallery-foot">
+      <span class="hint">Click any piece to open the full story.</span>
+      <span class="hint" id="count"></span>
+    </div>
+  </main>
+
+  <footer class="foot">
+    HLFHART · made with care · <span id="year">2026</span>
+  </footer>
+
+  <!-- lightbox -->
+  <div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-label="Art detail">
+    <div class="modal">
+      <div class="stage">
+        <button class="close" id="closeBtn" aria-label="Close">✕</button>
+        <img id="bigImg" src="" alt="Detail view of the artwork" />
+      </div>
+      <div class="meta">
+        <span class="cat"><span id="lbCat"></span></span>
+        <h2 id="lbTitle"></h2>
+        <p id="lbDate" class="date"></p>
+        <p id="lbDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

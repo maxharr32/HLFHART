@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upload — HLFHART</title>
+  <meta name="description" content="Add a new piece to the HLFHART portfolio." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site">
+    <div class="wrap site-head">
+      <a class="brand" href="index.html">
+        <span class="mark">✦</span>
+        <div>
+          <div class="name">HLFHART</div>
+          <div class="tag">originally yours</div>
+        </div>
+      </a>
+      <nav class="site">
+        <a href="index.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="admin.html">Upload</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="admin-panel">
+      <h2>Add a new piece</h2>
+      <p class="sub">
+        Drag a picture into the box, then fill in the details. The file is moved into the right
+        folder and this page prints the commands to commit it to GitHub Pages.
+      </p>
+
+      <div id="offlineNote" class="command" style="display:none;">
+        Run this in Terminal (inside the HLFHART folder) first:
+        <br/><code id="offlineCmd" style="display:block;">python3 scripts/serve.py</code>
+        and then refresh this page.
+      </div>
+
+      <form id="uploadForm">
+        <label for="title">Title *</label>
+        <input id="title" name="title" type="text" placeholder="e.g. Morning hours" required />
+
+        <div class="row2">
+          <label for="category">Category *</label>
+          <select id="category" name="category">
+            <option value="biro portraits">biro portraits</option>
+            <option value="acrylic">acrylic</option>
+            <option value="postcards">postcards</option>
+            <option value="life drawing">life drawing</option>
+            <option value="collage">collage</option>
+            <option value="sculpture">sculpture</option>
+          </select>
+        </div>
+
+        <label for="file">Photo or scan *</label>
+        <div class="file-zone" id="fileZone">
+          <div class="ico">📁</div>
+          <p id="zoneHint">Drag &amp; drop a photo here, or <label class="muted" style="cursor:pointer;">browse<input id="file" name="file" type="file" accept="image/*" hidden /></label></p>
+          <p id="fileName" class="fname" style="display:none;"></p>
+        </div>
+
+        <label for="description">About this piece *</label>
+        <textarea id="description" name="description" rows="4" placeholder="A few lines on what it's about (1–3 sentences)" required></textarea>
+
+        <div class="row2">
+          <label for="date">Date</label>
+          <input id="date" name="date" type="month" />
+        </div>
+
+        <div class="actions">
+          <button type="submit" id="submitBtn">Add to portfolio</button>
+          <button type="button" id="cancelBtn" class="ghost" style="display:none;">Cancel</button>
+        </div>
+      </form>
+
+      <div class="success" id="success"></div>
+    </div>
+  </main>
+
+  <footer class="foot">
+    HLFHART · made with care · <span id="year">2026</span>
+  </footer>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>
