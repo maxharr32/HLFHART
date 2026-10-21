@@ -1,58 +1,274 @@
 {
   "items": [
     {
-      "id": "biro-portraits-001",
-      "title": "Bloom (biro portraits)",
-      "category": "biro portraits",
-      "date": "2026-05",
-      "description": "A six-figure ink study of a wildflower \u2014 every petal built from thousands of fine pen strokes on cotton paper.",
-      "filename": "biro-portraits-001.jpg",
-      "image": "art/biro portraits/biro-portraits-001.jpg"
+      "id": "acrylic-001",
+      "title": "IMG_5984",
+      "category": "acrylic",
+      "date": "2026-07-28",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_5984.jpeg",
+      "image": "art/acrylic/IMG_5984.jpeg"
     },
     {
       "id": "acrylic-002",
-      "title": "Sea-Serpent",
+      "title": "IMG_8880",
       "category": "acrylic",
-      "date": "2026-06",
-      "description": "Layered washes of teal and copper that suggest a creature moving under water.",
-      "filename": "acrylic-002.jpg",
-      "image": "art/acrylic/acrylic-002.jpg"
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8880.jpeg",
+      "image": "art/acrylic/IMG_8880.jpeg"
     },
     {
-      "id": "postcards-003",
-      "title": "Bright Side",
-      "category": "postcards",
-      "date": "2026-04",
-      "description": "Four small colour studies on postcard paper \u2014 all about sun hitting a wall.",
-      "filename": "postcards-003.jpg",
-      "image": "art/postcards/postcards-003.jpg"
+      "id": "acrylic-003",
+      "title": "IMG_8906",
+      "category": "acrylic",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8906.jpeg",
+      "image": "art/acrylic/IMG_8906.jpeg"
     },
     {
-      "id": "life-004",
-      "title": "Gesture",
-      "category": "life drawing",
-      "date": "2026-07",
-      "description": "A series of timed charcoal and ink studies capturing posture and breath.",
-      "filename": "life-004.jpg",
-      "image": "art/life drawing/life-004.jpg"
+      "id": "acrylic-004",
+      "title": "IMG_8907",
+      "category": "acrylic",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8907.jpeg",
+      "image": "art/acrylic/IMG_8907.jpeg"
     },
     {
-      "id": "collage-005",
-      "title": "Found",
+      "id": "acrylic-005",
+      "title": "IMG_8908",
+      "category": "acrylic",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8908.jpeg",
+      "image": "art/acrylic/IMG_8908.jpeg"
+    },
+    {
+      "id": "acrylic-006",
+      "title": "IMG_8910",
+      "category": "acrylic",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8910.jpeg",
+      "image": "art/acrylic/IMG_8910.jpeg"
+    },
+    {
+      "id": "acrylic-007",
+      "title": "IMG_8911",
+      "category": "acrylic",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8911.jpeg",
+      "image": "art/acrylic/IMG_8911.jpeg"
+    },
+    {
+      "id": "biro-portraits-008",
+      "title": "IMG_0368",
+      "category": "biro portraits",
+      "date": "2025-01-25",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_0368.jpeg",
+      "image": "art/biro portraits/IMG_0368.jpeg"
+    },
+    {
+      "id": "biro-portraits-009",
+      "title": "IMG_2056",
+      "category": "biro portraits",
+      "date": "2025-03-30",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_2056.jpeg",
+      "image": "art/biro portraits/IMG_2056.jpeg"
+    },
+    {
+      "id": "biro-portraits-010",
+      "title": "IMG_2057",
+      "category": "biro portraits",
+      "date": "2025-03-30",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_2057.jpeg",
+      "image": "art/biro portraits/IMG_2057.jpeg"
+    },
+    {
+      "id": "biro-portraits-011",
+      "title": "IMG_8650",
+      "category": "biro portraits",
+      "date": "2025-08-19",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8650.jpeg",
+      "image": "art/biro portraits/IMG_8650.jpeg"
+    },
+    {
+      "id": "biro-portraits-012",
+      "title": "IMG_8912",
+      "category": "biro portraits",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8912.jpeg",
+      "image": "art/biro portraits/IMG_8912.jpeg"
+    },
+    {
+      "id": "collage-013",
+      "title": "IMG_5985",
       "category": "collage",
-      "date": "2026-05",
-      "description": "Assembled from torn maps and ticket stubs \u2014 memory you can hold.",
-      "filename": "collage-005.jpg",
-      "image": "art/collage/collage-005.jpg"
+      "date": "2026-07-28",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_5985.jpeg",
+      "image": "art/collage/IMG_5985.jpeg"
     },
     {
-      "id": "sculpture-006",
-      "title": "Form",
-      "category": "sculpture",
-      "date": "2026-08",
-      "description": "A small suspended bronze relief \u2014 line, weight and space in three dimensions.",
-      "filename": "sculpture-006.jpg",
-      "image": "art/sculpture/sculpture-006.jpg"
+      "id": "collage-014",
+      "title": "IMG_6308",
+      "category": "collage",
+      "date": "2026-08-03",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_6308.jpeg",
+      "image": "art/collage/IMG_6308.jpeg"
+    },
+    {
+      "id": "life-drawing-015",
+      "title": "C033A3D6-C244-437B-B295-60F62F906793",
+      "category": "life drawing",
+      "date": "2024-04-23",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "C033A3D6-C244-437B-B295-60F62F906793.jpeg",
+      "image": "art/life drawing/C033A3D6-C244-437B-B295-60F62F906793.jpeg"
+    },
+    {
+      "id": "life-drawing-016",
+      "title": "IMG_2162",
+      "category": "life drawing",
+      "date": "2026-04-10",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_2162.jpeg",
+      "image": "art/life drawing/IMG_2162.jpeg"
+    },
+    {
+      "id": "life-drawing-017",
+      "title": "IMG_8885",
+      "category": "life drawing",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8885.jpeg",
+      "image": "art/life drawing/IMG_8885.jpeg"
+    },
+    {
+      "id": "life-drawing-018",
+      "title": "IMG_8895",
+      "category": "life drawing",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8895.jpeg",
+      "image": "art/life drawing/IMG_8895.jpeg"
+    },
+    {
+      "id": "life-drawing-019",
+      "title": "IMG_8897",
+      "category": "life drawing",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8897.jpeg",
+      "image": "art/life drawing/IMG_8897.jpeg"
+    },
+    {
+      "id": "life-drawing-020",
+      "title": "IMG_8898",
+      "category": "life drawing",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8898.jpeg",
+      "image": "art/life drawing/IMG_8898.jpeg"
+    },
+    {
+      "id": "life-drawing-021",
+      "title": "IMG_8899",
+      "category": "life drawing",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8899.jpeg",
+      "image": "art/life drawing/IMG_8899.jpeg"
+    },
+    {
+      "id": "life-drawing-022",
+      "title": "IMG_8900",
+      "category": "life drawing",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8900.jpeg",
+      "image": "art/life drawing/IMG_8900.jpeg"
+    },
+    {
+      "id": "life-drawing-023",
+      "title": "IMG_8902",
+      "category": "life drawing",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8902.jpeg",
+      "image": "art/life drawing/IMG_8902.jpeg"
+    },
+    {
+      "id": "life-drawing-024",
+      "title": "IMG_8903",
+      "category": "life drawing",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8903.jpeg",
+      "image": "art/life drawing/IMG_8903.jpeg"
+    },
+    {
+      "id": "life-drawing-025",
+      "title": "IMG_8905",
+      "category": "life drawing",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8905.jpeg",
+      "image": "art/life drawing/IMG_8905.jpeg"
+    },
+    {
+      "id": "postcards-026",
+      "title": "0D59D9A9-BE84-4366-BA45-21D7643C2146",
+      "category": "postcards",
+      "date": "2024-06-15",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "0D59D9A9-BE84-4366-BA45-21D7643C2146.jpeg",
+      "image": "art/postcards/0D59D9A9-BE84-4366-BA45-21D7643C2146.jpeg"
+    },
+    {
+      "id": "postcards-027",
+      "title": "IMG_8884",
+      "category": "postcards",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8884.jpeg",
+      "image": "art/postcards/IMG_8884.jpeg"
+    },
+    {
+      "id": "postcards-028",
+      "title": "IMG_8889",
+      "category": "postcards",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8889.jpeg",
+      "image": "art/postcards/IMG_8889.jpeg"
+    },
+    {
+      "id": "postcards-029",
+      "title": "IMG_8890",
+      "category": "postcards",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8890.jpeg",
+      "image": "art/postcards/IMG_8890.jpeg"
+    },
+    {
+      "id": "postcards-030",
+      "title": "IMG_8891",
+      "category": "postcards",
+      "date": "2026-10-20",
+      "description": "No caption on file — edit in data/art.json or use the UPLOAD form.",
+      "filename": "IMG_8891.jpeg",
+      "image": "art/postcards/IMG_8891.jpeg"
     }
   ]
 }
