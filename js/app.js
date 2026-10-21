@@ -51,11 +51,10 @@
       card.setAttribute("tabindex", "0");
       card.setAttribute("role", "listitem");
 
-      const gradient = GRADIENTS[it.category] || GRADIENTS["biro portraits"];
+      const src = it.image;
       card.innerHTML =
-        `<div class="thumb" style="background:${gradient}">` +
-          `<span class="chip">${escapeHtml(it.category)}</span>` +
-        `</div>` +
+        `<img class="thumb" src="${src}" alt="${escapeHtml(it.title)}" loading="lazy" />` +
+        `<span class="chip">${escapeHtml(it.category)}</span>` +
         `<div class="cap">` +
           `<div class="title">${escapeHtml(it.title)}</div>` +
           `<div class="desc">${escapeHtml(it.description)}</div>` +
