@@ -164,15 +164,15 @@ nav.site a:hover { color: var(--ink); border-color: var(--c-amber); }
   margin-bottom: 18px;
 }
 .grid .art-card .thumb {
-  position: relative;
+  display: block;
   width: 100%;
   height: 240px;
 }
 .grid .art-card .thumb img {
-  position: absolute; inset: 0;
-  width: 100%; height: 100%;
-  object-fit: cover;
   display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .grid .art-card .thumb .chip {
   position: absolute; top: 12px; left: 12px;
