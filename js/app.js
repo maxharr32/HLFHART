@@ -53,7 +53,7 @@
 
       const src = it.image;
       card.innerHTML =
-        `<img class="thumb" src="${src}" alt="${escapeHtml(it.title)}" loading="lazy" />` +
+        `<img class="thumb" src="${src}" alt="${escapeHtml(it.title)}" />` +
         `<span class="chip">${escapeHtml(it.category)}</span>` +
         `<div class="cap">` +
           `<div class="title">${escapeHtml(it.title)}</div>` +
